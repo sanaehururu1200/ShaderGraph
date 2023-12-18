@@ -379,7 +379,7 @@ half4 ComputeForwardLighting(Varyings unpacked, SurfaceDescription surfaceDescri
     #if defined(LTCGI)
         float2 ltcgi_lmuv;
         #if defined(LIGHTMAP_ON)
-            ltcgi_lmuv = unpacked.texCoord1.xy;
+            ltcgi_lmuv = unpacked.lightmapUV.xy;
         #else
             ltcgi_lmuv = float2(0, 0);
         #endif
