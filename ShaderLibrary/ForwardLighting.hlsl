@@ -6,7 +6,7 @@
 #endif
 
 #if defined(LTCGI)
-    #include "Assets/_pi_/_LTCGI/Shaders/LTCGI.cginc"
+    #include "Packages/at.pimaker.ltcgi/Shaders/LTCGI.cginc"
 #endif
 
 #if defined(_AREALIT)
